@@ -1,0 +1,31 @@
+Description
+  A bash script for Ubuntu to self-hosting your own RustDesk Server OSS.
+
+Usage
+  Server
+    After successfully installing RustDesk Server OSS, make sure to open these ports in the firewall.
+
+    * hbbs: RustDesk ID/Rendezvous Server
+        - 21114/tcp: used for web console, only available in pro version.
+        - 21115/tcp: used for the NAT type test.
+        - 21116:
+            - 21116/tcp: used for TCP hole punching and connection service.
+            - 21116/udp: used for the ID registration and heartbeat service.
+        - 21118/tcp: used to support web clients.
+
+    * hbbr: RustDesk Relay Server
+        - 21117/tcp: used for the relay service.
+        - 21119/tcp: used to support web clients.
+
+    Please note that 21116 should be enabled both for TCP and UDP.
+    If you do not need web client support, the corresponding ports 21118, 21119 can be disabled.
+
+  Client
+    After opening the client, you can click "Settings -> Network -> ID/Relay Server".
+    Enter the IP address in the "ID Server" input box, the other two addresses can be left blank.
+
+      server> $ curl -s -4 https://cloudflare.com/cdn-cgi/trace | grep ip | awk -F '=' '{ print $2 }'
+
+    Enter the key in the "Key" input box.
+
+      server> $ sudo cat /var/lib/rustdesk-server/id_ed25519.pub
